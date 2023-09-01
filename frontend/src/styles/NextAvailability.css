@@ -1,0 +1,35 @@
+/* frontend/src/styles/NextAvailability.css */
+
+.NextAvailabilityTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.NextAvailabilityTable th, .NextAvailabilityTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.NextAvailabilityTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.NextAvailabilityTable tr:hover {
+    background-color: #ddd;
+}
+
+.NextAvailabilityTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.FilterForm {
+    margin-bottom: 20px;
+}
+
+.FilterForm input, .FilterForm select {
+    margin-right: 10px;
+}

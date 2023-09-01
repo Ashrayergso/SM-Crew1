@@ -1,0 +1,40 @@
+/* frontend/src/styles/ShipsWithNoFutureAssignment.css */
+
+.ShipsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ShipsTable th, .ShipsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.ShipsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.FilterForm {
+    margin: 20px 0;
+}
+
+.FilterForm input, .FilterForm select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.FilterForm button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.FilterForm button:hover {
+    background-color: #45a049;
+}

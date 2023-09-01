@@ -1,0 +1,39 @@
+/* frontend/src/styles/MainMatching.css */
+
+.MainMatchingTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.MainMatchingTable th, .MainMatchingTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.MainMatchingTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.FilterForm {
+    margin-bottom: 20px;
+}
+
+.FilterForm input, .FilterForm select {
+    margin-right: 10px;
+}
+
+.FilterForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
